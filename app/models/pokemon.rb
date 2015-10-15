@@ -3,7 +3,7 @@
 # Table name: pokemons
 #
 #  id          :integer          not null, primary key
-#  name        :string(255)
+#  name        :string
 #  level       :integer
 #  description :text
 #  created_at  :datetime
