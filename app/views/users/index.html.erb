@@ -3,6 +3,12 @@
     <% @users.each do |user| %>
       <h3><%= user.name %></h3>
       <p>Badges: <%= user.num_badges %></p>
+      <h4>Pokemons:</h4>
+      <ul>
+        <% user.pokemons.each do |pokemon| %>
+          <li><%= pokemon.name %>: <%= pokemon.level %></li>
+        <% end %>
+      </ul>
     <% end %>
   </div>
 </div>
